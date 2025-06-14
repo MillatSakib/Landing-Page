@@ -9,6 +9,7 @@ import Quote from './section/Quote/Quote'
 import Pricing from './section/Pricing/Pricing'
 import Faq from './section/FAQ/Faq'
 import Trial from './section/Trial/Trial'
+import Footer from './section/Footer/Footer'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -20,5 +21,6 @@ createRoot(document.getElementById('root')).render(
     <Pricing/>
     <Faq/>
     <Trial/>
+    <Footer/>
   </StrictMode>,
 )
