@@ -7,6 +7,7 @@ import Campain from './section/Campain/Campain'
 import Service from './section/Description/Service'
 import Quote from './section/Quote/Quote'
 import Pricing from './section/Pricing/Pricing'
+import Faq from './section/FAQ/Faq'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -16,5 +17,6 @@ createRoot(document.getElementById('root')).render(
     <Service/>
     <Quote/>
     <Pricing/>
+    <Faq/>
   </StrictMode>,
 )
