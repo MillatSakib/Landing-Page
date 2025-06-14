@@ -6,6 +6,7 @@ import Hero from './section/Hero/Hero'
 import Campain from './section/Campain/Campain'
 import Service from './section/Description/Service'
 import Quote from './section/Quote/Quote'
+import Pricing from './section/Pricing/Pricing'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -14,5 +15,6 @@ createRoot(document.getElementById('root')).render(
     <Campain/>
     <Service/>
     <Quote/>
+    <Pricing/>
   </StrictMode>,
 )
