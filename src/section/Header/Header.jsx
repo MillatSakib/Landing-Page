@@ -1,4 +1,5 @@
-import lwsLogo from '../../assets/logo.svg'
+import ButtonOne from '../../components/button/ButtonOne.jsx'
+import Svg from '../../components/svg/Svg'
 
 function Header() {
   return (
@@ -8,14 +9,12 @@ function Header() {
         <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
             <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
                 <a href="#" className="flex items-center">
-                    <img src={lwsLogo} className="h-6 mr-3 sm:h-9"
-                        alt="Landwind Logo" />
+                        <Svg image="lws"/>
                     <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Learn with
                         Sumit</span>
                 </a>
                 <div className="flex items-center lg:order-2">
-                    <a href="#" target="_blank"
-                        className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Download</a>
+                    <ButtonOne href="#" text="Download" />
 
                 </div>
                 <div className="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">

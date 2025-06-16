@@ -1,3 +1,5 @@
+import ButtonOne from "../../components/button/ButtonOne";
+
 function Trial(){
 
     return (
@@ -11,9 +13,7 @@ function Trial(){
                 <p className="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">Try Landwind Platform for 30
                     days. No
                     credit card required.</p>
-                <a href="#"
-                    className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Free
-                    trial for 30 days</a>
+                <ButtonOne href="#" text="Free Trial For 30 Days"/>
             </div>
         </div>
     </section>
