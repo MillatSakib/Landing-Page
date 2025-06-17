@@ -13,10 +13,12 @@ function Service() {
       <section className="bg-gray-50 dark:bg-gray-800">
         <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
           {Data.map((data, key) => (
-            <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+            <div
+              key={key}
+              className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16"
+            >
               {key == 0 && <Image src={featureOne} />}
-              <Content data={data} key={key} />{" "}
-              {key == 1 && <Image src={featureTwo} />}{" "}
+              <Content data={data} /> {key == 1 && <Image src={featureTwo} />}{" "}
             </div>
           ))}
         </div>

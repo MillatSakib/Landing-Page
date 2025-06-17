@@ -138,10 +138,9 @@ function Footer() {
               </li>
               <li>
                 <a
-  href="#"
-  className="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
->
-
+                  href="#"
+                  className="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
+                >
                   <Svg image="github" />
                 </a>
               </li>

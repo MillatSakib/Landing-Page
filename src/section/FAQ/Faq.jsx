@@ -2,7 +2,6 @@ import ToolTrip from "../../components/ToolTrip/ToolTrip";
 import "flowbite";
 import tooltripData from "./tooltripData.jsx";
 
-
 function Faq() {
   return (
     <>
